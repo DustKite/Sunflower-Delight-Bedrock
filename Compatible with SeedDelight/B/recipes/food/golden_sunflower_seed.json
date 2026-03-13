@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sunflowerdelight:golden_sunflower_seed"
+        },
+        "key": {
+            "#": {
+                "item": "minecraft:gold_nugget"
+            },
+            "A": {
+                "item": "sunflowerdelight:sunflower_seed"
+            }
+        },
+        "pattern": [
+            "###",
+            "#A#",
+            "###"
+        ],
+        "result": {
+            "item": "sunflowerdelight:golden_sunflower_seed"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

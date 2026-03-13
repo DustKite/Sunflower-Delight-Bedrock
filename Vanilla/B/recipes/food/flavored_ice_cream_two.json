@@ -1,0 +1,42 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sunflowerdelight:flavored_ice_cream_two"
+        },
+        "key": {
+            "A": {
+                "item": "minecraft:bowl"
+            },
+            "B": {
+                "item": "minecraft:sweet_berries"
+            },
+            "C": {
+                "item": "sunflowerdelight:rosebud"
+            },
+            "D": {
+                "item": "sunflowerdelight:peony_flower"
+            },
+            "E": {
+                "item": "farmersdelight:milk_bottle"
+            },
+            "F": {
+                "item": "minecraft:ice"
+            },
+            "G": {
+                "item": "minecraft:sugar"
+            }
+        },
+        "pattern": [
+            "ABC",
+            "DEF",
+            "G  "
+        ],
+        "result": {
+            "item": "sunflowerdelight:flavored_ice_cream"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

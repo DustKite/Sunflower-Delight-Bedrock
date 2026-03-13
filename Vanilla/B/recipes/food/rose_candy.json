@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sunflowerdelight:rose_candy"
+        },
+        "key": {
+            "A": {
+                "item": "minecraft:sugar"
+            },
+            "B": {
+                "item": "minecraft:honey_bottle"
+            },
+            "C": {
+                "item": "sunflowerdelight:rosebud"
+            }
+        },
+        "pattern": [
+            "AC ",
+            "B"
+        ],
+        "result": {
+            "count": 8,
+            "item": "sunflowerdelight:rose_candy"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sunflowerdelight:tricolored_ice_cream"
+        },
+        "key": {
+            "A": {
+                "item": "minecraft:bowl"
+            },
+            "B": {
+                "item": "sunflowerdelight:lilac_flower"
+            },
+            "C": {
+                "item": "sunflowerdelight:rosebud"
+            },
+            "E": {
+                "item": "sunflowerdelight:peony_flower"
+            },
+            "G": {
+                "item": "minecraft:sugar"
+            },
+            "F": {
+                "item": "minecraft:milk_bucket"
+            },
+            "D": {
+                "item": "minecraft:ice"
+            }
+        },
+        "pattern": [
+            "ABC",
+            "EFD",
+            "G  "
+        ],
+        "result": {
+  "item": "sunflowerdelight:tricolored_ice_cream"
+            },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

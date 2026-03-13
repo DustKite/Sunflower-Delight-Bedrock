@@ -1,0 +1,1 @@
+execute at @a[hasitem=[{item=sunflowerdelight:flower_wreath_helmet,location=slot.armor.head}]] run kill @e [type=phantom]

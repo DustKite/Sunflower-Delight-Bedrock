@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": false,
+        "nutrition": 1,
+        "saturation_modifier": 0.5,
+        "using_converts_to": "glass_bottle"
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:icon": {
+        "textures": {
+          "default": "sunflowerdelight:sunflower_oil"
+        }
+      },
+      "minecraft:use_animation": "drink",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.4
+      }
+    },
+    "description": {
+      "identifier": "sunflowerdelight:sunflower_oil",
+      "menu_category": {
+        "category": "items",
+        "group": "sunflowerdelight:itemGroup.name.material"
+      }
+    }
+  }
+}

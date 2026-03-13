@@ -1,0 +1,2 @@
+scoreboard objectives add farmersdelight_sunflowerdelight_cutting_board dummy
+scoreboard objectives add farmersdelight_sunflowerdelight_cook dummy

@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sunflowerdelight:shortbread_cookie"
+        },
+        "key": {
+            "A": {
+                "item": "sunflowerdelight:fried_sunflower_seed"
+            },
+            "B": {
+                "item": "minecraft:wheat"
+            }
+        },
+        "pattern": [
+            "ABB"
+        ],
+        "result": {
+        "count": 8,
+  "item": "sunflowerdelight:shortbread_cookie"
+            },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sunflowerdelight:glowy_milkshake"
+        },
+        "key": {
+            "A": {
+                "item": "minecraft:glass_bottle"
+            },
+            "B": {
+                "item": "sunflowerdelight:glowy_ice_cream"
+            },
+            "C": {
+                "item": "minecraft:milk_bucket"
+            }
+        },
+        "pattern": [
+            "AAA",
+            "BC"
+        ],
+        "result": {
+        "count": 3,
+  "item": "sunflowerdelight:glowy_milkshake"
+            },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

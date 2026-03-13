@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:cyan_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 30,
+          "name": "loot_tables/minecraft/cutting_board/pitcher_plant_petal.json"
+        },
+        {
+          "type": "empty",
+          "weight": 70
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "sunflowerdelight:blooming_salad": {
+      "textures": "textures/items/blooming_salad"
+    },
+    "sunflowerdelight:rose_candy": {
+      "textures": "textures/items/rose_candy"
+    },
+    "sunflowerdelight:flavored_ice_cream": {
+      "textures": "textures/items/flavored_ice_cream"
+    },
+    "sunflowerdelight:flavored_milkshake": {
+      "textures": "textures/items/flavored_milkshake"
+    },
+    "sunflowerdelight:flower_wreath_helmet": {
+      "textures": "textures/items/flower_wreath_helmet"
+    },
+    "sunflowerdelight:fried_sunflower_seed": {
+      "textures": "textures/items/sd_fried_sunflower_seed"
+    },
+    "sunflowerdelight:glowy_ice_cream": {
+      "textures": "textures/items/glowy_ice_cream"
+    },
+    "sunflowerdelight:glowy_milkshake": {
+      "textures": "textures/items/glowy_milkshake"
+    },
+    "sunflowerdelight:golden_sunflower_seed": {
+      "textures": "textures/items/golden_sunflower_seed"
+    },
+    "sunflowerdelight:gozinaki": {
+      "textures": "textures/items/gozinaki"
+    },
+    "sunflowerdelight:halva": {
+      "textures": "textures/items/halva"
+    },
+    "sunflowerdelight:lilac_flower": {
+      "textures": "textures/items/lilac_flower"
+    },
+    "sunflowerdelight:lilac_tincture": {
+      "textures": "textures/items/lilac_tincture"
+    },
+    "sunflowerdelight:peeled_sunflower_seed": {
+      "textures": "textures/items/peeled_sunflower_seed"
+    },
+    "sunflowerdelight:peony_candy": {
+      "textures": "textures/items/peony_candy"
+    },
+    "sunflowerdelight:peony_flower": {
+      "textures": "textures/items/peony_flower"
+    },
+    "sunflowerdelight:peony_syrup": {
+      "textures": "textures/items/peony_syrup"
+    },
+    "sunflowerdelight:rose_lemonade": {
+      "textures": "textures/items/rose_lemonade"
+    },
+    "sunflowerdelight:rosebud": {
+      "textures": "textures/items/rosebud"
+    },
+    "sunflowerdelight:shortbread_cookie": {
+      "textures": "textures/items/shortbread_cookie"
+    },
+    "sunflowerdelight:sunflower_oil": {
+      "textures": "textures/items/sunflower_oil"
+    },
+    "sunflowerdelight:sunflower_seed": {
+      "textures": "textures/items/sd_sunflower_seed"
+    },
+    "sunflowerdelight:taiga_custard": {
+      "textures": "textures/items/taiga_custard"
+    },
+    "sunflowerdelight:tom_kha_kai": {
+      "textures": "textures/items/tom_kha_kai"
+    },
+    "sunflowerdelight:tricolored_ice_cream": {
+      "textures": "textures/items/tricolored_ice_cream"
+    },
+    "sunflowerdelight:big_pitcher_plant_petal": {
+      "textures": "textures/items/big_pitcher_plant_petal"
+    },
+    "sunflowerdelight:brown_mushroom_sauce": {
+      "textures": "textures/items/brown_mushroom_sauce"
+    },
+    "sunflowerdelight:mystery_milkshake": {
+      "textures": "textures/items/mystery_milkshake"
+    },
+    "sunflowerdelight:mystery_ice_cream": {
+      "textures": "textures/items/mystery_ice_cream"
+    },
+    "sunflowerdelight:mutton_stew": {
+      "textures": "textures/items/mutton_stew"
+    },
+    "sunflowerdelight:mutton_burger": {
+      "textures": "textures/items/mutton_burger"
+    },
+    "sunflowerdelight:pitcher_pod_pulp": {
+      "textures": "textures/items/pitcher_pod_pulp"
+    },
+    "sunflowerdelight:pitcher_pod_decoction": {
+      "textures": "textures/items/pitcher_pod_decoction"
+    },
+    "sunflowerdelight:pitcher_plant_drink": {
+      "textures": "textures/items/pitcher_plant_drink"
+    },
+    "sunflowerdelight:starving_tisan": {
+      "textures": "textures/items/starving_tisan"
+    },
+    "sunflowerdelight:small_pitcher_plant_petal": {
+      "textures": "textures/items/small_pitcher_plant_petal"
+    }
+  }
+}

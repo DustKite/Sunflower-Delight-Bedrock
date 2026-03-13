@@ -1,0 +1,13 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "sunflowerdelight:pitcher_pod_pulp"
+        }
+      ]
+    }
+  ]
+}

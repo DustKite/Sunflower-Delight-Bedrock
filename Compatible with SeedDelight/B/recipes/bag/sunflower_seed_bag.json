@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sunflowerdelight:sunflower_seed_bag"
+        },
+        "key": {
+            "#": {
+                "item": "sunflowerdelight:sunflower_seed"
+            }
+        },
+        "pattern": [
+            "###",
+            "###",
+            "###"
+        ],
+        "result": {
+            "item": "sunflowerdelight:sunflower_seed_bag"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

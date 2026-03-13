@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sunflowerdelight:mystery_ice_cream_block"
+        },
+        "key": {
+            "#": {
+                "item": "minecraft:snow"
+            },
+            "A": {
+                "item": "sunflowerdelight:mystery_ice_cream"
+            }
+        },
+        "pattern": [
+            "###",
+            "#A#",
+            "###"
+        ],
+        "result": {
+            "count": 8,
+            "item": "sunflowerdelight:mystery_ice_cream_block"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

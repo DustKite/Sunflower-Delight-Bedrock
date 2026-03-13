@@ -1,0 +1,38 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sunflowerdelight:glowy_ice_cream_two"
+        },
+        "key": {
+            "A": {
+                "item": "minecraft:bowl"
+            },
+            "B": {
+                "item": "minecraft:glow_berries"
+            },
+            "C": {
+                "item": "sunflowerdelight:lilac_flower"
+            },
+            "D": {
+                "item": "minecraft:sugar"
+            },
+            "E": {
+                "item": "farmersdelight:milk_bottle"
+            },
+            "F": {
+                "item": "minecraft:ice"
+            }
+        },
+        "pattern": [
+            "ABC",
+            "EFD"
+        ],
+        "result": {
+  "item": "sunflowerdelight:glowy_ice_cream"
+            },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

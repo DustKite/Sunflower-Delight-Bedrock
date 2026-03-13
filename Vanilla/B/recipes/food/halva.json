@@ -1,0 +1,36 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sunflowerdelight:halva"
+        },
+        "key": {
+            "A": {
+                "item": "sunflowerdelight:peeled_sunflower_seed"
+            },
+            "B": {
+                "item": "minecraft:honey_bottle"
+            },
+            "C": {
+                "item": "minecraft:egg"
+            },
+            "D": {
+                "item": "sunflowerdelight:sunflower_oil"
+            },
+            "E": {
+                "item": "minecraft:sugar"
+            }
+        },
+        "pattern": [
+            "ABE",
+            "CD"
+        ],
+        "result": {
+        "count": 2,
+  "item": "sunflowerdelight:halva"
+            },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

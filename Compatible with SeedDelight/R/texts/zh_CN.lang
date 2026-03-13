@@ -1,0 +1,75 @@
+pack.description=§2§l兼容种子乐事§r,适配1.26.0+, 请置于主包上方加载. 本模组根据原Java版模组向日葵乐事在已获得原作者授权的情况下进行移植.
+pack.name=向日葵乐事
+
+tile.sunflowerdelight:sunflower_seed_bag.name=袋装葵花籽
+tile.sunflowerdelight:peeled_sunflower_seed_bag.name=袋装去壳葵花籽
+tile.sunflowerdelight:fried_sunflower_seed_bag.name=袋装炒葵花籽
+tile.sunflowerdelight:golden_sunflower_seed_bag.name=袋装金色葵花籽
+tile.sunflowerdelight:flavored_ice_cream_block.name=风味冰淇淋块
+tile.sunflowerdelight:glowy_ice_cream_block.name=发光冰淇淋块
+tile.sunflowerdelight:mystery_ice_cream_block.name=奥秘冰淇淋块
+
+item.sunflowerdelight:rosebud=玫瑰花蕾
+item.sunflowerdelight:taiga_custard=针叶林蛋奶沙司
+item.sunflowerdelight:lilac_flower=丁香花
+item.sunflowerdelight:shortbread_cookie=酥香曲奇
+item.sunflowerdelight:peeled_sunflower_seed=去壳葵花籽
+item.sunflowerdelight:tom_kha_kai=椰奶鸡汤
+item.sunflowerdelight:halva=哈尔瓦酥糖
+item.sunflowerdelight:rose_candy=玫瑰糖
+item.sunflowerdelight:gozinaki=戈吉纳基
+item.sunflowerdelight:peony_flower=牡丹花
+item.sunflowerdelight:fried_sunflower_seed=炒葵花籽
+item.sunflowerdelight:sunflower_seed=葵花籽
+item.sunflowerdelight:sunflower_oil=葵花籽油
+item.sunflowerdelight:peony_candy=牡丹糖
+item.sunflowerdelight:small_pitcher_plant_petal=小型瓶子草花瓣
+item.sunflowerdelight:big_pitcher_plant_petal=大型瓶子草花瓣
+item.sunflowerdelight:pitcher_pod_pulp=瓶子草荚果肉
+item.sunflowerdelight:mutton_burger=羊肉堡
+item.sunflowerdelight:mutton_stew=炖羊肉
+item.sunflowerdelight:brown_mushroom_sauce=棕蘑菇酱
+
+sunflowerdelight.pure_mind.activate=[洁净神智] 效果激活,持续%s秒...
+sunflowerdelight.pure_mind.countdown=[剩余时间] %s秒
+sunflowerdelight.pure_mind.expire=[洁净神智] 效果已结束
+
+item.sunflowerdelight.peony_syrup=牡丹糖浆
+item.sunflowerdelight.golden_sunflower_seed=§e金色葵花籽
+item.sunflowerdelight.rose_lemonade=玫瑰柠檬水
+item.sunflowerdelight.blooming_salad=盛放沙拉
+item.sunflowerdelight.glowy_milkshake=发光奶昔
+item.sunflowerdelight.flavored_ice_cream=风味冰淇淋
+item.sunflowerdelight.lilac_tincture=丁香酊
+item.sunflowerdelight.glowy_ice_cream=发光冰淇淋
+item.sunflowerdelight.flower_wreath_helmet=鲜花花环
+item.sunflowerdelight.flavored_milkshake=风味奶昔
+item.sunflowerdelight.tricolored_ice_cream=三色冰淇淋
+item.sunflowerdelight.starving_tisan=疗饥茶
+item.sunflowerdelight.mystery_ice_cream=奥秘冰淇淋
+item.sunflowerdelight.mystery_milkshake=奥秘奶昔
+item.sunflowerdelight.pitcher_plant_drink=瓶子草沁饮
+item.sunflowerdelight.pitcher_pod_decoction=瓶子草荚果汤剂
+
+translation.key.roselemonadedescription=§9立竿见影的治疗效果
+translation.key.bloomingsaladdescription=§9生命恢复(00:05)
+translation.key.glowymilkshakedescription=§9夜视(00:15)
+translation.key.goldensunflowerseeddescription=§9迅捷(00:30)
+translation.key.glowyicecreamdescription=§9夜视(00:30)
+translation.key.flavoredmilkshakedescription=§9力量(00:15)
+translation.key.flavoredicecreamdescription=§9力量(00:30)
+translation.key.tricoloredicecreamdescription=§9洁净神智(00:10)
+translation.key.peonysyrupdescription=§c漂浮(01:00)
+translation.key.lilactincturedescription=§9急迫(01:00)
+translation.key.flowerwreathhelmetdescription=§e洁净神智 [∞]
+translation.key.starvingtisandescription=§9生命恢复 (01:00)
+translation.key.pitcherpoddecoctiondescription=§9跳跃提升 II (01:00)
+translation.key.pitcherplantdrinkdescription=§9抗性提升 (01:00)
+translation.key.mysterymilkshakedescription=§9隐身 (00:15)
+translation.key.mysteryicecreamdescription=§9隐身 (00:30)
+
+tile.pitcher_plant.name=瓶子草
+item.pitcher_pod.name=瓶子草荚果
+
+itemGroup.farmersdelight:main.name=向日葵乐事
+sunflowerdelight:itemGroup.name.material=向日葵乐事-原料

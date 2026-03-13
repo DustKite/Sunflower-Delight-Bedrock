@@ -1,0 +1,28 @@
+{
+    "sunflowerdelight:sunflower_seed_bag": {
+        "sound": "cloth"
+    },
+    "sunflowerdelight:flavored_ice_cream_block": {
+        "sound": "cloth"
+    },
+    "sunflowerdelight:fried_sunflower_seed_bag": {
+        "sound": "cloth"
+    },
+    "sunflowerdelight:glowy_ice_cream_block": {
+        "sound": "cloth"
+    },
+    "sunflowerdelight:mystery_ice_cream_block": {
+        "sound": "cloth"
+    },
+    "sunflowerdelight:golden_sunflower_seed_bag": {
+        "sound": "cloth"
+    },
+    "sunflowerdelight:peeled_sunflower_seed_bag": {
+        "sound": "cloth"
+    },
+    "format_version": [
+        1,
+        1,
+        0
+    ]
+}

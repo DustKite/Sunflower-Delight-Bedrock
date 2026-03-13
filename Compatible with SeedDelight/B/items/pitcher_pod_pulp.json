@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "sunflowerdelight:pitcher_pod_pulp"
+        }
+      },
+      "minecraft:food": {
+        "can_always_eat": false,
+        "nutrition": 2,
+        "saturation_modifier": 0.15
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.4
+      }
+    },
+    "description": {
+      "identifier": "sunflowerdelight:pitcher_pod_pulp",
+      "menu_category": {
+        "category": "items",
+        "group": "sunflowerdelight:itemGroup.name.material"
+      }
+    }
+  }
+}

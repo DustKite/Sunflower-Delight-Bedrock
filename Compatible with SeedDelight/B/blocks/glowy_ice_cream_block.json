@@ -1,0 +1,24 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "sunflowerdelight:glowy_ice_cream_block",
+            "menu_category": {
+                "category": "items",
+                "group": "farmersdelight:itemGroup.name.crate"
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "sunflowerdelight:glowy_ice_cream_block",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:geometry": "minecraft:geometry.full_block"
+        }
+    }
+}

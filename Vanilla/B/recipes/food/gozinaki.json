@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sunflowerdelight:gozinaki"
+        },
+        "key": {
+            "A": {
+                "item": "sunflowerdelight:fried_sunflower_seed"
+            },
+            "B": {
+                "item": "minecraft:honey_bottle"
+            },
+            "C": {
+                "item": "minecraft:sugar"
+            },
+            "D": {
+                "item": "sunflowerdelight:sunflower_oil"
+            }
+        },
+        "pattern": [
+            "AAB",
+            "CD"
+        ],
+        "result": {
+  "item": "sunflowerdelight:gozinaki"
+            },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sunflowerdelight:flower_wreath_helmet"
+        },
+        "key": {
+            "A": {
+                "item": "minecraft:chorus_fruit"
+            },
+            "B": {
+                "item": "sunflowerdelight:lilac_flower"
+            },
+            "C": {
+                "item": "sunflowerdelight:rosebud"
+            },
+            "D": {
+                "item": "sunflowerdelight:peony_flower"
+            }
+        },
+        "pattern": [
+            " A ",
+            "B C",
+            " D "
+        ],
+        "result": {
+            "item": "sunflowerdelight:flower_wreath_helmet"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

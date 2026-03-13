@@ -1,0 +1,44 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "sunflowerdelight:fried_sunflower_seed_bag",
+            "menu_category": {
+                "category": "items",
+                "group": "farmersdelight:itemGroup.name.crate"
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "up": {
+                    "texture": "sunflowerdelight:fried_sunflower_seed_bag_top",
+                    "render_method": "alpha_test"
+                },
+                "down": {
+                    "texture": "sunflowerdelight:bag_bottom",
+                    "render_method": "alpha_test"
+                },
+                "north": {
+                    "texture": "sunflowerdelight:bag_side_2",
+                    "render_method": "alpha_test"
+                },
+                "south": {
+                    "texture": "sunflowerdelight:bag_side_2",
+                    "render_method": "alpha_test"
+                },
+                "west": {
+                    "texture": "sunflowerdelight:bag_side_1",
+                    "render_method": "alpha_test"
+                },
+                "east": {
+                    "texture": "sunflowerdelight:bag_side_1",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.7
+            },
+            "minecraft:geometry": "minecraft:geometry.full_block"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sunflowerdelight:blooming_salad"
+        },
+        "key": {
+            "A": {
+                "item": "sunflowerdelight:lilac_flower"
+            },
+            "B": {
+                "item": "sunflowerdelight:peony_flower"
+            },
+            "C": {
+                "item": "sunflowerdelight:sunflower_oil"
+            },
+            "D": {
+                "item": "minecraft:sweet_berries"
+            },
+            "E": {
+                "item": "minecraft:glow_berries"
+            },
+            "F": {
+                "item": "minecraft:bowl"
+            }
+        },
+        "pattern": [
+            "ABC",
+            "DEF"
+        ],
+        "result": {
+  "item": "sunflowerdelight:blooming_salad"
+            },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

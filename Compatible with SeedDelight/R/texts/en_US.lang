@@ -1,0 +1,72 @@
+pack.description=§2§lCompatible with SeedDelight§r,For1.26.0+, Please place it above the main package to load. This addon is a port of the original Java Edition mod Sunflower Delight, created with the original author's authorization.
+pack.name=Sunflower Delight
+
+tile.sunflowerdelight:sunflower_seed_bag.name=Sunflower Seed Bag
+tile.sunflowerdelight:peeled_sunflower_seed_bag.name=Peeled Sunflower Seed Bag
+tile.sunflowerdelight:fried_sunflower_seed_bag.name=Fried Sunflower Seed Bag
+tile.sunflowerdelight:golden_sunflower_seed_bag.name=Golden Sunflower Seed Bag
+tile.sunflowerdelight:flavored_ice_cream_block.name=Flavored Ice Cream Block
+tile.sunflowerdelight:glowy_ice_cream_block.name=Glowy Ice Cream Block
+tile.sunflowerdelight:mystery_ice_cream_block.name=Mysterious Ice Cream Block
+
+item.sunflowerdelight:rosebud=Rosebud
+item.sunflowerdelight:taiga_custard=Taiga Custard
+item.sunflowerdelight:lilac_flower=Lilac Flower
+item.sunflowerdelight:shortbread_cookie=Shortbread Cookie
+item.sunflowerdelight:peeled_sunflower_seed=Peeled Sunflower Seed
+item.sunflowerdelight:tom_kha_kai=Tom Kha Kai
+item.sunflowerdelight:halva=Halva
+item.sunflowerdelight:gozinaki=Gozinaki
+item.sunflowerdelight:peony_flower=Peony Flower
+item.sunflowerdelight:fried_sunflower_seed=Fried Sunflower Seed
+item.sunflowerdelight:sunflower_seed=Sunflower Seed
+item.sunflowerdelight:sunflower_oil=Sunflower Oil
+item.sunflowerdelight:peony_candy=Peony Candy
+item.sunflowerdelight:rose_candy=Rose Candy
+item.sunflowerdelight:small_pitcher_plant_petal=Small Pitcher Plant Petal
+item.sunflowerdelight:big_pitcher_plant_petal=Big Pitcher Plant Petal
+item.sunflowerdelight:pitcher_pod_pulp=Pitcher Pod Pulp
+item.sunflowerdelight:mutton_burger=Mutton Burger
+item.sunflowerdelight:mutton_stew=Mutton Stew
+item.sunflowerdelight:brown_mushroom_sauce=Brown Mushroom Sauce
+
+sunflowerdelight.pure_mind.activate=[Pure Mind] Effect active for %s seconds...
+sunflowerdelight.pure_mind.countdown=[Time Left] %s seconds
+sunflowerdelight.pure_mind.expire=[Pure Mind] Effect ended
+
+item.sunflowerdelight.peony_syrup=Peony Syrup
+item.sunflowerdelight.golden_sunflower_seed=§eGolden Sunflower Seed
+item.sunflowerdelight.rose_lemonade=Rose Lemonade
+item.sunflowerdelight.blooming_salad=Blooming Salad
+item.sunflowerdelight.glowy_milkshake=Glowy Milkshake
+item.sunflowerdelight.flavored_ice_cream=Flavored Ice Cream
+item.sunflowerdelight.lilac_tincture=Lilac Tincture
+item.sunflowerdelight.glowy_ice_cream=Glowy Ice Cream
+item.sunflowerdelight.flower_wreath_helmet=Flower Wreath
+item.sunflowerdelight.flavored_milkshake=Flavored Milkshake
+item.sunflowerdelight.tricolored_ice_cream=Tri-colored Ice Cream
+item.sunflowerdelight.starving_tisan=Starving Tisane
+item.sunflowerdelight.mystery_ice_cream=Mysterious Ice Cream
+item.sunflowerdelight.mystery_milkshake=Mysterious Milkshake
+item.sunflowerdelight.pitcher_plant_drink=Pitcher Plant Drink
+item.sunflowerdelight.pitcher_pod_decoction=Pitcher Pod Decoction
+
+translation.key.roselemonadedescription=§9Significant Instant Health
+translation.key.bloomingsaladdescription=§9Regeneration (00:05)
+translation.key.glowymilkshakedescription=§9Night Vision (00:15)
+translation.key.goldensunflowerseeddescription=§9Speed (00:30)
+translation.key.glowyicecreamdescription=§9Night Vision (00:30)
+translation.key.flavoredmilkshakedescription=§9Strength (00:15)
+translation.key.flavoredicecreamdescription=§9Strength (00:30)
+translation.key.tricoloredicecreamdescription=§9Pure Mind (00:10)
+translation.key.peonysyrupdescription=§cLevitation (01:00)
+translation.key.lilactincturedescription=§9Haste (01:00)
+translation.key.flowerwreathhelmetdescription=§ePure Mind [∞]
+translation.key.starvingtisandescription=§9Regeneration (01:00)
+translation.key.pitcherpoddecoctiondescription=§9Jump Boost II (01:00)
+translation.key.pitcherplantdrinkdescription=§9Resistance (01:00)
+translation.key.mysterymilkshakedescription=§9Invisibility (00:15)
+translation.key.mysteryicecreamdescription=§9Invisibility (00:30)
+
+itemGroup.farmersdelight:main.name=Sunflower Delight
+sunflowerdelight:itemGroup.name.material=Sunflower Delight-Material

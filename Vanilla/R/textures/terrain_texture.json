@@ -1,0 +1,34 @@
+{
+  "texture_data": {
+    "sunflowerdelight:bag_bottom": {
+      "textures": "textures/blocks/bag_bottom"
+    },
+    "sunflowerdelight:bag_side_1": {
+      "textures": "textures/blocks/bag_side_1"
+    },
+    "sunflowerdelight:bag_side_2": {
+      "textures": "textures/blocks/bag_side_2"
+    },
+    "sunflowerdelight:flavored_ice_cream_block": {
+      "textures": "textures/blocks/flavored_ice_cream_block"
+    },
+    "sunflowerdelight:fried_sunflower_seed_bag_top": {
+      "textures": "textures/blocks/fried_sunflower_seed_bag_top"
+    },
+    "sunflowerdelight:glowy_ice_cream_block": {
+      "textures": "textures/blocks/glowy_ice_cream_block"
+    },
+    "sunflowerdelight:golden_sunflower_seed_bag_top": {
+      "textures": "textures/blocks/golden_sunflower_seed_bag_top"
+    },
+    "sunflowerdelight:peeled_sunflower_seed_bag_top": {
+      "textures": "textures/blocks/peeled_sunflower_seed_bag_top"
+    },
+    "sunflowerdelight:sunflower_seed_bag_top": {
+      "textures": "textures/blocks/sunflower_seed_bag_top"
+    },
+    "sunflowerdelight:mystery_ice_cream_block": {
+      "textures": "textures/blocks/mystery_ice_cream_block"
+    }
+  }
+}

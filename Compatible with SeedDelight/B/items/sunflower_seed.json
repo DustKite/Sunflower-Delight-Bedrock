@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "sunflowerdelight:sunflower_seed"
+        }
+      }
+    },
+    "description": {
+      "identifier": "sunflowerdelight:sunflower_seed",
+      "menu_category": {
+        "category": "items",
+        "group": "sunflowerdelight:itemGroup.name.material"
+      }
+    }
+  }
+}

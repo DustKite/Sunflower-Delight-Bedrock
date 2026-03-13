@@ -1,0 +1,34 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": false,
+        "nutrition": 2,
+        "using_converts_to": "glass_bottle",
+        "saturation_modifier": 0.75
+      },
+      "minecraft:display_name": {
+        "value": "%item.sunflowerdelight.mystery_milkshake\n%translation.key.mysterymilkshakedescription"
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:icon": {
+        "textures": {
+          "default": "sunflowerdelight:mystery_milkshake"
+        }
+      },
+      "minecraft:use_animation": "drink",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.4
+      }
+    },
+    "description": {
+      "identifier": "sunflowerdelight:mystery_milkshake",
+      "menu_category": {
+        "category": "equipment",
+        "group": "farmersdelight:itemGroup.name.miscFood"
+      }
+    }
+  }
+}

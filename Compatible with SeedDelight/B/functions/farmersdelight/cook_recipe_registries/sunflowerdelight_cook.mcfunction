@@ -1,0 +1,2 @@
+scriptevent farmersdelight:cook {"id":"sunflowerdelight:peeled_sunflower_seed","result":"sunflowerdelight:fried_sunflower_seed","time":200}
+scoreboard objectives remove farmersdelight_sunflowerdelight_cook

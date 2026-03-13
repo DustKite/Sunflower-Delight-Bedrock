@@ -1,0 +1,769 @@
+{
+    "berries_anim": {
+        "type": "image",
+        "texture": "textures/ui/berries_anim",
+        "uv": "@2_fps",
+        "uv_size": [
+            16,
+            16
+        ],
+        "disable_anim_fast_forward": true
+    },
+    "milk_anim": {
+        "type": "image",
+        "texture": "textures/ui/milk_anim",
+        "uv": "@2_fps",
+        "uv_size": [
+            16,
+            16
+        ],
+        "disable_anim_fast_forward": true
+    },
+    "2_fps": {
+        "anim_type": "flip_book",
+        "initial_uv": [
+            0,
+            0
+        ],
+        "frame_count": 2,
+        "frame_step": 16,
+        "fps": 1,
+        "reversible": true,
+        "easing": "linear"
+    },
+    "sunflowerdelight_recipe_part_0": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "sunflower_oil@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/peeled_sunflower_seed",
+                                "$cell1": "textures/items/peeled_sunflower_seed",
+                                "$container": "textures/items/potion_bottle_empty",
+                                "$result": "textures/items/sunflower_oil"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "taiga_custard@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/sweet_berries"
+                                        }
+                                    },
+                                    {
+                                        "cell1@cooking_pot.milk_anim": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell2": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/egg"
+                                        }
+                                    },
+                                    {
+                                        "cell3": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/lilac_flower"
+                                        }
+                                    },
+                                    {
+                                        "cell4": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/rosebud"
+                                        }
+                                    },
+                                    {
+                                        "cell5": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/sugar"
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/potion_bottle_empty"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/taiga_custard"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "sunflowerdelight_recipe_grid_0": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.sunflowerdelight_recipe_part_0"
+    },
+    "sunflowerdelight_recipe_part_1": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "lilac_tincture@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/lilac_flower",
+                                "$cell1": "textures/blocks/torchflower",
+                                "$cell2": "textures/items/glow_berries",
+                                "$cell3": "textures/items/glow_berries",
+                                "$container": "textures/items/potion_bottle_empty",
+                                "$result": "textures/items/lilac_tincture"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "peony_syrup@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/peony_flower",
+                                "$cell1": "textures/items/sugar",
+                                "$cell2": "textures/items/chorus_fruit",
+                                "$cell3": "textures/items/chorus_fruit",
+                                "$container": "textures/items/potion_bottle_empty",
+                                "$result": "textures/items/peony_syrup"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "sunflowerdelight_recipe_grid_1": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.sunflowerdelight_recipe_part_1"
+    },
+    "sunflowerdelight_recipe_part_2": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "rose_lemonade@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/rosebud",
+                                "$cell1": "textures/items/sugar",
+                                "$cell2": "textures/items/melon",
+                                "$cell3": "textures/items/melon",
+                                "$cell4": "textures/items/nether_wart",
+                                "$container": "textures/items/potion_bottle_empty",
+                                "$result": "textures/items/rose_lemonade"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "tom_kha_kai@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0@cooking_pot.is_raw_chicken": {
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell1@cooking_pot.milk_anim": {
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell2": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/sunflower_oil"
+                                        }
+                                    },
+                                    {
+                                        "cell3": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/blocks/mushroom_brown"
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/tom_kha_kai"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "sunflowerdelight_recipe_grid_2": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.sunflowerdelight_recipe_part_2"
+    },
+    "sunflowerdelight_recipe_part_3": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "brown_mushroom_sauce@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/blocks/mushroom_brown",
+                                "$cell1": "textures/items/onion",
+                                "$container": "textures/items/bowl",
+                                "$result": "textures/items/brown_mushroom_sauce"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "mutton_stew@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0@cooking_pot.is_raw_mutton": {
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell1": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/brown_mushroom_sauce"
+                                        }
+                                    },
+                                    {
+                                        "cell2": {
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/carrot"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/mutton_stew"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "sunflowerdelight_recipe_grid_3": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.sunflowerdelight_recipe_part_3"
+    },
+    "sunflowerdelight_recipe_part_4": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "pitcher_pod_decoction@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/blocks/mushroom_brown",
+                                "$cell1": "textures/blocks/hanging_roots",
+                                "$cell2": "textures/items/pitcher_pod_pulp",
+                                "$cell3": "textures/items/pitcher_pod_pulp",
+                                "$container": "textures/items/potion_bottle_empty",
+                                "$result": "textures/items/pitcher_pod_decoction"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "pitcher_plant_drink@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/big_pitcher_plant_petal",
+                                "$cell1": "textures/items/small_pitcher_plant_petal",
+                                "$cell2": "textures/items/apple",
+                                "$cell3": "textures/items/apple",
+                                "$container": "textures/items/potion_bottle_empty",
+                                "$result": "textures/items/pitcher_plant_drink"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "sunflowerdelight_recipe_grid_4": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.sunflowerdelight_recipe_part_4"
+    },
+    "sunflowerdelight_recipe_part_5": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "starving_tisan@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "controls": [
+                                    {
+                                        "cell0": {
+                                            "type": "image",
+                                            "offset": [
+                                                -23,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/blocks/flower_rose"
+                                        }
+                                    },
+                                    {
+                                        "cell1": {
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/blocks/flower_dandelion"
+                                        }
+                                    },
+                                    {
+                                        "cell2@cooking_pot.berries_anim": {
+                                            "offset": [
+                                                -6.25,
+                                                -7
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cell3@cooking_pot.berries_anim": {
+                                            "offset": [
+                                                -23,
+                                                1.5
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/potion_bottle_empty"
+                                        }
+                                    },
+                                    {
+                                        "result": {
+                                            "offset": [
+                                                21,
+                                                -5.25
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "type": "image",
+                                            "texture": "textures/items/starving_tisan"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "sunflowerdelight_recipe_grid_5": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.sunflowerdelight_recipe_part_5"
+    },
+    "recipe_grid_panel": {
+        "modifications": [
+            {
+                "array_name": "controls",
+                "operation": "insert_back",
+                "value": [
+                    {
+                        "sunflowerdelight_recipe_grid_0@cooking_pot.sunflowerdelight_recipe_part_0": {}
+                    },
+                    {
+                        "sunflowerdelight_recipe_grid_1@cooking_pot.sunflowerdelight_recipe_grid_1": {}
+                    },
+                    {
+                        "sunflowerdelight_recipe_grid_2@cooking_pot.sunflowerdelight_recipe_part_2": {}
+                    },
+                    {
+                        "sunflowerdelight_recipe_grid_1@cooking_pot.sunflowerdelight_recipe_grid_3": {}
+                    },
+                    {
+                        "sunflowerdelight_recipe_grid_2@cooking_pot.sunflowerdelight_recipe_part_4": {}
+                    },
+                    {
+                        "sunflowerdelight_recipe_grid_2@cooking_pot.sunflowerdelight_recipe_part_5": {}
+                    }
+                ]
+            }
+        ]
+    }
+}
