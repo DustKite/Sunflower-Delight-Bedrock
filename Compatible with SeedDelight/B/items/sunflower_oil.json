@@ -18,6 +18,11 @@
       "minecraft:use_modifiers": {
         "use_duration": 1.6,
         "movement_modifier": 0.4
+      },
+      "minecraft:tags": {
+        "tags": [
+          "farmersdelight:food_oil"
+        ]
       }
     },
     "description": {

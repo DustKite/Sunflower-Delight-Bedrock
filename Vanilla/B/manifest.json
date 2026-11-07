@@ -7,7 +7,7 @@
     "version": [
       5,
       0,
-      1
+      2
     ],
     "min_engine_version": [
       1,
@@ -22,18 +22,18 @@
       "version": [
         5,
         0,
-        1
+        2
       ]
     },
     {
-      "description": "向日葵乐事脚本",
+      "description": "Sunflower Delight Script",
       "type": "script",
       "language": "javascript",
       "uuid": "f969bd3c-5aac-4f7f-b9a7-15d0bf212a4f",
       "version": [
         5,
         0,
-        1
+        2
       ],
       "entry": "scripts/main.js"
     }
@@ -42,7 +42,7 @@
     "authors": [
       "Dust_Kite/Elaikes"
     ],
-    "license": "ARR",
+    "license": "https://github.com/DustKite/Sunflower-Delight-Bedrock?tab=License-1-ov-file",
     "product_type": "addon"
   },
   "dependencies": [
@@ -51,12 +51,12 @@
       "version": [
         5,
         0,
-        1
+        2
       ]
     },
     {
       "module_name": "@minecraft/server",
-      "version": "1.13.0"
+      "version": "2.4.0"
     }
   ]
 }

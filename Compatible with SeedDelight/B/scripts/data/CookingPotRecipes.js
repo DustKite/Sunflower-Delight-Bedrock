@@ -1,6 +1,6 @@
 const cookingPotRecipes = [
     {
-        "identifer": "sunflowerdelight:lilac_tincture",
+        "identifier": "sunflowerdelight:lilac_tincture",
         "container": {
             "item": "minecraft:glass_bottle"
         },
@@ -19,7 +19,7 @@ const cookingPotRecipes = [
         }
     },
     {
-        "identifer": "sunflowerdelight:peony_syrup",
+        "identifier": "sunflowerdelight:peony_syrup",
         "container": {
             "item": "minecraft:glass_bottle"
         },
@@ -38,7 +38,7 @@ const cookingPotRecipes = [
         }
     },
     {
-        "identifer": "sunflowerdelight:rose_lemonade",
+        "identifier": "sunflowerdelight:rose_lemonade",
         "container": {
             "item": "minecraft:glass_bottle"
         },
@@ -58,7 +58,7 @@ const cookingPotRecipes = [
         }
     },
     {
-        "identifer": "sunflowerdelight:sunflower_oil",
+        "identifier": "sunflowerdelight:sunflower_oil",
         "container": {
             "item": "minecraft:glass_bottle"
         },
@@ -75,7 +75,7 @@ const cookingPotRecipes = [
         }
     },
     {
-        "identifer": "sunflowerdelight:taiga_custard",
+        "identifier": "sunflowerdelight:taiga_custard",
         "container": {
             "item": "minecraft:glass_bottle"
         },
@@ -99,7 +99,7 @@ const cookingPotRecipes = [
         }
     },
     {
-        "identifer": "sunflowerdelight:tom_kha_kai",
+        "identifier": "sunflowerdelight:tom_kha_kai",
         "container": {
             "item": "minecraft:bowl"
         },
@@ -124,7 +124,7 @@ const cookingPotRecipes = [
         }
     },
     {
-        "identifer": "sunflowerdelight:brown_mushroom_sauce",
+        "identifier": "sunflowerdelight:brown_mushroom_sauce",
         "time": 100,
         "container": {
             "item": "minecraft:bowl"
@@ -144,7 +144,7 @@ const cookingPotRecipes = [
         }
     },
     {
-        "identifer": "sunflowerdelight:mutton_stew",
+        "identifier": "sunflowerdelight:mutton_stew",
         "time": 200,
         "experience": 1.0,
         "tags": ["cooking_pot"],
@@ -170,7 +170,7 @@ const cookingPotRecipes = [
         }
     },
     {
-        "identifer": "sunflowerdelight:pitcher_plant_drink",
+        "identifier": "sunflowerdelight:pitcher_plant_drink",
         "container": {
             "item": "minecraft:glass_bottle"
         },
@@ -196,7 +196,7 @@ const cookingPotRecipes = [
         }
     },
     {
-        "identifer": "sunflowerdelight:pitcher_pod_decoction",
+        "identifier": "sunflowerdelight:pitcher_pod_decoction",
         "container": {
             "item": "minecraft:glass_bottle"
         },
@@ -222,7 +222,7 @@ const cookingPotRecipes = [
         }
     },
     {
-        "identifer": "sunflowerdelight:starving_tisan",
+        "identifier": "sunflowerdelight:starving_tisan",
         "container": {
             "item": "minecraft:glass_bottle"
         },

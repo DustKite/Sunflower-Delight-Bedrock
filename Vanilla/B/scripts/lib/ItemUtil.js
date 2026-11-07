@@ -40,7 +40,7 @@ export class ItemUtil {
         const itemStack = container?.getItem(slot);
         if (!itemStack)
             return;
-        if (player.getGameMode() == GameMode.creative)
+        if (player.getGameMode() == GameMode.Creative)
             return;
         const itemAmount = itemStack.amount;
         const amount = itemAmount - 1;
